@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Basic {
+		public static void main(String args[]) {
+			String s;
+			@SuppressWarnings("resource")
+			Scanner scanner = new Scanner(System.in);
+			s=scanner.nextLine();
+			System.out.println(s);
+		}
+
+}
